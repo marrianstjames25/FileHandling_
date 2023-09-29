@@ -39,8 +39,10 @@ class Test
 
         File.WriteAllText(path, input); //single string
 
-        File.WriteAllText(path, string.Empty); 
+        File.WriteAllText(path, string.Empty);
         //Clear the contents of a file
+
+        
 
 
         //another way of doing the same 
